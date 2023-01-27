@@ -15,12 +15,45 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "pastarecipe"
+    },
+    {
+      "name": "RollingPin",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rolling_pin"
+    },
+    {
+      "name": "RollingPinRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rolling_pin_recipe"
+    },
+    {
+      "name": "UseRoller",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "use_roller",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.cooler_cooking.rolling_pin": "Rolling Pin",
       "item.cooler_cooking.uncookedpatsa": "Uncookedpatsa"
     }
   },

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "cooler_cooking:blocks/empty",
+    "up": "cooler_cooking:blocks/cobbletexture",
+    "north": "cooler_cooking:blocks/sidesticks",
+    "east": "cooler_cooking:blocks/sidesticks",
+    "south": "cooler_cooking:blocks/sidesticks",
+    "west": "cooler_cooking:blocks/sidesticks",
+    "particle": "cooler_cooking:blocks/cobbletexture"
+  },
+  "render_type": "translucent"
+}

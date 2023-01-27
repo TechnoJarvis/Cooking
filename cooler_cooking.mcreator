@@ -33,27 +33,69 @@
       "registry_name": "rolling_pin_recipe"
     },
     {
-      "name": "UseRoller",
-      "type": "procedure",
-      "sortid": 4,
+      "name": "RollingStation",
+      "type": "block",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "use_roller",
+      "registry_name": "rolling_station"
+    },
+    {
+      "name": "RollingStationRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rolling_station_recipe"
+    },
+    {
+      "name": "RollingStationClicked",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rolling_station_clicked",
       "metadata": {
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "guistate",
+            "type": "map"
           }
         ]
       }
+    },
+    {
+      "name": "RollingStationGUI",
+      "type": "gui",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rolling_station_gui"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "gnocci",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "penne",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "item.cooler_cooking.rolling_pin": "Rolling Pin",
+      "block.cooler_cooking.rolling_station": "Rolling Station",
       "item.cooler_cooking.uncookedpatsa": "Uncookedpatsa"
     }
   },
