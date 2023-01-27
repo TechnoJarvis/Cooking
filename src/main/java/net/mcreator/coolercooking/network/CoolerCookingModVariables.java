@@ -72,9 +72,9 @@ public class CoolerCookingModVariables {
 					.orElse(new PlayerVariables()));
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null)
 					.orElse(new PlayerVariables()));
-			clone.gnocci = original.gnocci;
-			clone.penne = original.penne;
 			if (!event.isWasDeath()) {
+				clone.gnocci = original.gnocci;
+				clone.penne = original.penne;
 			}
 		}
 	}

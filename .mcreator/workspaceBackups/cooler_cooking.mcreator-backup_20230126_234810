@@ -1,0 +1,83 @@
+{
+  "mod_elements": [
+    {
+      "name": "Uncookedpatsa",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncookedpatsa"
+    },
+    {
+      "name": "Pastarecipe",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastarecipe"
+    },
+    {
+      "name": "RollingPin",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rolling_pin"
+    },
+    {
+      "name": "RollingPinRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rolling_pin_recipe"
+    },
+    {
+      "name": "RolledPasta",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rolled_pasta"
+    },
+    {
+      "name": "RolledPastaRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rolled_pasta_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.cooler_cooking.rolled_pasta": "Rolled Pasta",
+      "item.cooler_cooking.rolling_pin": "Rolling Pin",
+      "item.cooler_cooking.uncookedpatsa": "Uncookedpatsa"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "cooler_cooking",
+    "modName": "Cooler Cooking",
+    "version": "1.0.0",
+    "author": "gaber, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.coolercooking",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

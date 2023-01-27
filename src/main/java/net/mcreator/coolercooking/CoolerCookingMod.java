@@ -29,10 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.mcreator.coolercooking.init.CoolerCookingModMenus;
 import net.mcreator.coolercooking.init.CoolerCookingModItems;
-import net.mcreator.coolercooking.init.CoolerCookingModBlocks;
-import net.mcreator.coolercooking.init.CoolerCookingModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -51,12 +48,7 @@ public class CoolerCookingMod {
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
-		CoolerCookingModBlocks.REGISTRY.register(bus);
 		CoolerCookingModItems.REGISTRY.register(bus);
-
-		CoolerCookingModBlockEntities.REGISTRY.register(bus);
-
-		CoolerCookingModMenus.REGISTRY.register(bus);
 
 	}
 

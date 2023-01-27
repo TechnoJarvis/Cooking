@@ -16,4 +16,14 @@ public class RollingPinItem extends Item {
 	public UseAnim getUseAnimation(ItemStack itemstack) {
 		return UseAnim.BLOCK;
 	}
+
+	@Override
+	public boolean hasCraftingRemainingItem() {
+		return true;
+	}
+
+	@Override
+	public ItemStack getCraftingRemainingItem(ItemStack itemstack) {
+		return new ItemStack(this);
+	}
 }
